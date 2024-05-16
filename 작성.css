@@ -1,0 +1,241 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    min-width: 1920px;
+    height: 60px;
+}
+a{
+    text-decoration: none; 
+    color: white;
+}
+
+.navbar_{ 
+    font-size: 36px;
+    line-height: 60px;
+    font-family: "Sansita", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: -2px 0 #fff, 0 2px #fff, 2px 0 #fff, 0 -2px #fff;
+    margin: 0px 0px 0px 16px;
+}
+.navbar__menu {
+    display: flex; 
+    list-style: none; 
+    font-size: 16px;
+    color: white;
+    line-height: 60px;
+    font-family: "Sansita", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.navbar__menu li {
+    padding-right: 30px;
+}
+
+#find{
+    width: 200px;
+    height: 28px;
+    border: 1px solid white;
+}
+#img{
+    background-image: url(./image/흰\ 돋보기.png);
+    width:24px;
+    height: 24px;
+}
+#img2{
+    background-image: url(./image/하얀\ 별.png);
+    width:41px;
+    height: 59px;
+    background-size: cover;
+}
+
+
+main {
+    min-width: 1920px;
+    min-height: calc(100vh - 60px);
+    display: flex;
+    position: relative;
+    justify-content: center;
+} 
+main::after{
+    width:100%;
+    height: 100%;
+    content: "";
+    background-image: url(./image/cb6bc9341af4a1a4ea0b6f058ed7a545.jpg);
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2; 
+    background-size: cover;
+}
+.blur{
+    width:620px;
+    height: 620px;
+    border-radius: 999px;
+    filter: blur(70px);
+    background-image: linear-gradient(to top left, #FFD056, #E04B4B);
+    position: absolute;
+    top: 170px;
+    z-index: -1;
+    opacity: 0.4; 
+}
+.img3{
+    background-image: url(./image/dddddd.png);
+    width:  933px;
+    height: 327px;
+    background-size: cover;
+    opacity: 0.2;
+    transform: rotate(-12deg);
+    position: relative;
+    top: 240px;
+    left: 150px;   
+}
+.box {
+    width: 1168px;
+    height: 800px;
+    margin-top: 80px;
+    border: 2px solid black;
+    position: relative;
+}
+.box::before {
+    content: "";
+    width: 1168px;
+    height: 800px;
+    background-color: white;
+    position: absolute;
+    opacity: 0.3;
+}
+#star{
+    background-image: url(./image/ae08b76227f16067b33e719a467c91be.png);
+    width:263px;
+    height: 206px;
+    background-size: cover;
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    align-content: center;
+}
+.write{
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 36px;
+    left: 36px;
+}
+#title{
+    width: 1092px;
+    height: 62px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 62px;
+    position: absolute;
+    top:110px;
+    left: 36px;
+    background-color: transparent;
+}
+.write_container{
+    width: 1096px;
+    height: 500px;
+    position: absolute;
+    top:186px;
+    left: 36px;
+}
+.write_box1{
+    width: 1096px;
+    height:42px;
+    border: 1px solid black;
+    display:flex;
+    align-items: center;
+}
+select{
+    width: 90px;
+    padding: 5px;
+    border: none;
+    background: url(./image/play_arrow.png) no-repeat 95% 50%;
+    border-radius: 0px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select::-ms-expand{
+    display:none;
+}
+.write_box2{
+    width:1092px;
+    height: 457px;
+    border: 1px solid black;
+    border-top: 0px;
+    background-color: transparent;
+}
+textarea{
+    resize: none;
+}
+option:focus{
+    outline: none;
+}
+.text_option{
+    background-image: url(./image/Group\ 12.png);
+    width:112px;
+    height: 22px;
+    position: absolute;
+    left: 300px;
+}
+.text_arrange{
+    background-image: url(./image/Group\ 14.png);
+    width:170px;
+    height: 20px;
+    position: absolute;
+    left: 442px;
+}
+.x{
+    background-image: url(./image/Group\ 15.png);
+    width:46px;
+    height: 21px;
+    position: absolute;
+    left: 642px;
+}
+.link{
+    background-image: url(./image/Group\ 16.png);
+    width:80px;
+    height: 20px;
+    position: absolute;
+    left: 718px;
+}
+    input, progress {
+        accent-color: black;
+}
+.radio_container{
+    width: 200px;
+    height: 18px;
+    gap: 12px;
+    display: flex;
+    position: absolute;
+    left: 818px;
+    font-size: 14px;
+    font-weight: bold;
+    align-content: center;
+}
+.cacle_container{
+    width: 1098px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    top: 16px;
+    gap: 860px;
+}
+.cancle{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    border-radius: 4px;
+}
