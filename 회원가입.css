@@ -151,6 +151,7 @@ main::after{
     height: 40px;
     border: 1px solid black;
     margin-bottom: 12px;
+    background-color: transparent;
 }
 .login_box{
     width: 400px;
